@@ -1,1 +1,1 @@
-# riscv-soc-mixedsignal
+# Mixed Signal RISC-V SoC
