@@ -5,11 +5,11 @@ __RVMYTH Core:__ https://github.com/infini8-13/riscv-tlv-core
 
 __PLL:__ https://github.com/vsdip/rvmyth_avsdpll_interface
 
-# Tools used:
+## Tools used:
 
 __Makerchip:__  [Makerchip](https://www.makerchip.com/) is a free web-based IDE as well as available as [makerchip-app](https://gitlab.com/rweda/makerchip-app)
 
-__Icarus Verilog:__  [_Icarus Verilog_](http://iverilog.icarus.com/) is an open-source Verilog compiler used for simulation and synthesis.
+__Icarus Verilog:__  [Icarus Verilog](http://iverilog.icarus.com/) is an open-source Verilog compiler used for simulation and synthesis.
 
 __GTKWave:__  [GTKWave](http://gtkwave.sourceforge.net/) is a fully featured GTK+ based wave viewer, also open-source.
 
