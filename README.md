@@ -1,13 +1,15 @@
 # Mixed Signal RISC-V SoC
 ### Table of Contents
- 1. [Introduction-Mixed Signal SoC](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#introduction---mixed-signal-soc) <br />
- 2. [Tools](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#tools) <br />
- 3. [RVMyth](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#rvmyth) <br />
- 4. [PLL Specs](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#pll) <br />
- 6. [Moving Forward](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#moving-forward)
-    -  [RVMyth:TL-Verilog to Verilog](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#rvmythtl-verilog-to-verilog)
-    -  [Designing avsdpll](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#designing-avsdpll)
-    -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#rtl-integration-and-simulation-of-rvmythpll)
+ 1. [Introduction-Mixed Signal SoC](https://github.com/infini8-13/riscv-ms-soc/#introduction---mixed-signal-soc) <br />
+ 2. [Tools](https://github.com/infini8-13/riscv-ms-soc/#tools) <br />
+ 3. [RVMyth](https://github.com/infini8-13/riscv-ms-soc/#rvmyth) <br />
+ 4. [PLL Specs](https://github.com/infini8-13/riscv-ms-soc/#pll) <br />
+ 6. [Moving Forward](https://github.com/vsdip/rvmyth_avsdpll_interface/#moving-forward)
+    -  [RVMyth:TL-Verilog to Verilog](https://github.com/infini8-13/riscv-ms-soc/#rvmythtl-verilog-to-verilog)
+    -  [Designing avsdpll](https://github.com/infini8-13/riscv-ms-soc/#designing-avsdpll)
+    -  [Verification](https://github.com/infini8-13/riscv-ms-soc/blob/main/#verification)
+      -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/infini8-13/riscv-ms-soc/#rtl-integration-and-simulation-of-rvmythpll)
+      -  [FPGA Flow](https://github.com/infini8-13/riscv-ms-soc/blob/main/#fpga-flow)
  7. [References](https://github.com/vsdip/rvmyth_avsdpll_interface#references)   
  8. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
@@ -41,12 +43,12 @@ __SandPiper:__ [Sandpiper](https://pypi.org/project/sandpiper-saas/) is a code g
 To achieve the integration, a verilog block for the PLL should be generated and the output of the PLL is given as an input to the rvmyth. This will create the interface.
 
 
-- ### **RVMyth:TL-Verilog to Verilog**
+### **RVMyth:TL-Verilog to Verilog**
   1. `git clone https://github.com/shivanishah269/vsdfpga.git`
   2. `cd vsdfpga/verilog`
   3. ` sandpiper-saas -i rvmyth.tlv -o rvmyth.v --iArgs`
 
-- ### **Designing avsdpll**
+### **Designing avsdpll**
   Design a PLL as a clock multiplier using verilog and test the functionality.([PLL IP](https://github.com/vsdip/rvmyth_avsdpll_interface))
 
   1. `iverilog avsd_pll_1v8.v pll_tb.v`
@@ -62,7 +64,8 @@ To achieve the integration, a verilog block for the PLL should be generated and 
   1. `iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v`
   2. `./a.out`
   3. `gtkwave rvmyth_pll.vcd`
-
+  
+- ### **FPGA Flow**
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/4.PNG" width = 700>
 <!---
