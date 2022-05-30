@@ -4,12 +4,12 @@
  2. [Tools](https://github.com/infini8-13/riscv-ms-soc/#tools) <br />
  3. [RVMyth](https://github.com/infini8-13/riscv-ms-soc/#rvmyth) <br />
  4. [PLL Specs](https://github.com/infini8-13/riscv-ms-soc/#pll) <br />
- 6. [Moving Forward](https://github.com/vsdip/rvmyth_avsdpll_interface/#moving-forward)
+ 6. [Moving Forward](https://github.com/infini8-13/riscv-ms-soc/#moving-forward)
     -  [RVMyth:TL-Verilog to Verilog](https://github.com/infini8-13/riscv-ms-soc/#rvmythtl-verilog-to-verilog)
     -  [Designing avsdpll](https://github.com/infini8-13/riscv-ms-soc/#designing-avsdpll)
-    -  [Verification](https://github.com/infini8-13/riscv-ms-soc/blob/main/#verification)
+    -  [Verification](https://github.com/infini8-13/riscv-ms-soc/#verification)
       -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/infini8-13/riscv-ms-soc/#rtl-integration-and-simulation-of-rvmythpll)
-      -  [FPGA Flow](https://github.com/infini8-13/riscv-ms-soc/blob/main/#fpga-flow)
+      -  [FPGA Flow](https://github.com/infini8-13/riscv-ms-soc//#fpga-flow)
  7. [References](https://github.com/vsdip/rvmyth_avsdpll_interface#references)   
  8. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
