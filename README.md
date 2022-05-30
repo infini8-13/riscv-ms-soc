@@ -7,7 +7,7 @@
  6. [Moving Forward](https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/README.md#moving-forward)
     -  [RVMyth:TL-Verilog to Verilog](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#rvmythtl-verilog-to-verilog)
     -  [Designing avsdpll](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#designing-avsdpll)
-    -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/vsdip/rvmyth_avsdpll_interface#integration-of-rvmyth-and-avsdpll)
+    -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/infini8-13/riscv-ms-soc/blob/main/README.md#rtl-integration-and-simulation-of-rvmythpll)
  7. [References](https://github.com/vsdip/rvmyth_avsdpll_interface#references)   
  8. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
 
@@ -68,3 +68,13 @@ To achieve the integration, a verilog block for the PLL should be generated and 
 <!---
 The next step involves implementing PNR, using OPENLane and Sky130, which currently abstracted in this repo. Refer [rvmyth_avsdpll_interface](https://github.com/vsdip/rvmyth_avsdpll_interface) for more detailed explanation of this step
 -->
+## References
+1. https://github.com/infini8-13/riscv-tlv-core
+2. https://github.com/vsdip/rvmyth_avsdpll_interface
+3. https://github.com/shivanishah269/vsdfpga
+4. https://github.com/vsdip/vsdmixedsignalflow
+
+## Acknowledgements
+- Shivani Shah, IIIT Bangalore.
+- [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
+- [Steve Hoover](https://github.com/stevehoover), Founder, Redwood EDA
