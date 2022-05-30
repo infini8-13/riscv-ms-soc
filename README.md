@@ -43,12 +43,13 @@ __SandPiper:__ [Sandpiper](https://pypi.org/project/sandpiper-saas/) is a code g
 To achieve the integration, a verilog block for the PLL should be generated and the output of the PLL is given as an input to the rvmyth. This will create the interface.
 
 
-### **RVMyth:TL-Verilog to Verilog**
+## **RVMyth: TL-Verilog to Verilog**
+Using Sandpiper to produce Verilog code from TL-V
   1. `git clone https://github.com/shivanishah269/vsdfpga.git`
   2. `cd vsdfpga/verilog`
   3. ` sandpiper-saas -i rvmyth.tlv -o rvmyth.v --iArgs`
 
-### **Designing avsdpll**
+## **Designing avsdpll**
   Design a PLL as a clock multiplier using verilog and test the functionality.([PLL IP](https://github.com/vsdip/rvmyth_avsdpll_interface))
 
   1. `iverilog avsd_pll_1v8.v pll_tb.v`
@@ -58,6 +59,7 @@ To achieve the integration, a verilog block for the PLL should be generated and 
 
 <img src = "https://github.com/vsdip/rvmyth_avsdpll_interface/blob/main/pics/3aa.PNG" width = 700>
 
+## **Verification**
 - ### **RTL Integration and Simulation of RVMYTH+PLL**
   Now integrate both rvmyth and avsdpll using a top level testbench and test it to verify.
 
