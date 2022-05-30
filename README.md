@@ -1,17 +1,17 @@
 # Mixed Signal RISC-V SoC
 ### Table of Contents
- 1. [Introduction-Mixed Signal SoC](https://github.com/infini8-13/riscv-ms-soc/#introduction---mixed-signal-soc) <br />
- 2. [Tools](https://github.com/infini8-13/riscv-ms-soc/#tools) <br />
- 3. [RVMyth](https://github.com/infini8-13/riscv-ms-soc/#rvmyth) <br />
- 4. [PLL Specs](https://github.com/infini8-13/riscv-ms-soc/#pll) <br />
- 6. [Moving Forward](https://github.com/infini8-13/riscv-ms-soc/#moving-forward)
-    -  [RVMyth:TL-Verilog to Verilog](https://github.com/infini8-13/riscv-ms-soc/#rvmythtl-verilog-to-verilog)
-    -  [Designing avsdpll](https://github.com/infini8-13/riscv-ms-soc/#designing-avsdpll)
-    -  [Verification](https://github.com/infini8-13/riscv-ms-soc/#verification)
-      -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/infini8-13/riscv-ms-soc/#rtl-integration-and-simulation-of-rvmythpll)
-      -  [FPGA Flow](https://github.com/infini8-13/riscv-ms-soc//#fpga-flow)
- 7. [References](https://github.com/vsdip/rvmyth_avsdpll_interface#references)   
- 8. [Acknowledgements](https://github.com/vsdip/rvmyth_avsdpll_interface#acknowledgements)
+ 1. [Introduction-Mixed Signal SoC](https://github.com/infini8-13/riscv-ms-soc#introduction---mixed-signal-soc) <br />
+ 2. [Tools](https://github.com/infini8-13/riscv-ms-soc#tools) <br />
+ 3. [RVMyth](https://github.com/infini8-13/riscv-ms-soc#rvmyth) <br />
+ 4. [PLL Specs](https://github.com/infini8-13/riscv-ms-soc#pll) <br />
+ 6. [Moving Forward](https://github.com/infini8-13/riscv-ms-soc#moving-forward)
+    -  [RVMyth:TL-Verilog to Verilog](https://github.com/infini8-13/riscv-ms-soc#rvmythtl-verilog-to-verilog)
+    -  [Designing avsdpll](https://github.com/infini8-13/riscv-ms-soc#designing-avsdpll)
+    -  [Verification](https://github.com/infini8-13/riscv-ms-soc#verification)
+      -  [RTL Integration and Simulation of RVMYTH+PLL](https://github.com/infini8-13/riscv-ms-soc#rtl-integration-and-simulation-of-rvmythpll)
+      -  [FPGA Flow](https://github.com/infini8-13/riscv-ms-soc#fpga-flow)
+ 7. [References](https://github.com/infini8-13/riscv-ms-soc#references)   
+ 8. [Acknowledgements](https://github.com/infini8-13/riscv-ms-soc#acknowledgements)
 
 ## Introduction - Mixed Signal SoC
 Mixed signal SoC is a chip which contains both analog and digital blocks. The designers are adding more analog circuitry and increasing their complexities day by day. Not only that, they also contain digital control logic. As the process nodes shrink, the demand for integration grows. A divide and conquer approach is followed, where the analog and digital structures were dealt with separately. Usually, an analog IP (Intellectual Property) is bought as black- box.  
