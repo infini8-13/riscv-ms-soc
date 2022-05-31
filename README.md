@@ -23,7 +23,7 @@ Here, the __digital block is the RVMyth RISC-V CPU Core and the analog block is 
 
 ![elaborated-ip-design](https://user-images.githubusercontent.com/54203063/171231609-e4751e96-c969-4d04-ad93-059999678b35.png)
 
-__RVMYTH Core:__ https://github.com/infini8-13/riscv-tlv-core
+__RVMYTH Core:__ https://github.com/infini8-13/riscv-tlv-core  
 __PLL:__ https://github.com/vsdip/rvmyth_avsdpll_interface
 
 
