@@ -16,7 +16,7 @@
 ## Introduction - Mixed Signal SoC
 Mixed signal SoC is a chip which contains both analog and digital blocks. The designers are adding more analog circuitry and increasing their complexities day by day. Not only that, they also contain digital control logic. As the process nodes shrink, the demand for integration grows. A divide and conquer approach is followed, where the analog and digital structures were dealt with separately. Usually, an analog IP (Intellectual Property) is bought as black- box.  
   
-Here, the digital block is the RVMyth RISC-V CPU Core and the analog block is a PLL(Phase Locked Loop). This project aims to integrate these two blocks with the PLL serving as a clock multiplier.
+Here, the __digital block is the RVMyth RISC-V CPU Core and the analog block is a PLL(Phase Locked Loop)__. This project aims to integrate these two blocks with the PLL serving as a __clock multiplier__.
 
 __RVMYTH Core:__ https://github.com/infini8-13/riscv-tlv-core
 
